@@ -1,0 +1,17 @@
+{
+  "name": "dferriz/php-design-patterns",
+  "license": "MIT",
+  "type": "project",
+  "description": "A small collection of design patterns applied on PHP",
+  "require": {
+    "php": "^7.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "DesignPatterns\\": "src/"
+    }
+  },
+  "minimum-stability": "RC"
+}

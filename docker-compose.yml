@@ -2,7 +2,7 @@ version: '3'
 
 services:
   nginx:
-    container_name: katas_nginx
+    container_name: designpatterns_nginx
     build:
       context: .
       dockerfile: docker/nginx/Dockerfile
@@ -18,7 +18,7 @@ services:
       - php
 
   php:
-    container_name: katas_php
+    container_name: designpatterns_php
     build:
       context: .
       dockerfile: docker/php/Dockerfile
